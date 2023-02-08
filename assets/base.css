@@ -2957,6 +2957,7 @@ details-disclosure > details {
   transition: 0.3s;
   min-width: 0 !important;
   padding: 10px 50px !important;
+  font-weight: 300;
 }
 
 .button--primary {
