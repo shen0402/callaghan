@@ -37,12 +37,16 @@
 }
 
 .multicolumn .button {
-  margin-top: 1.5rem;
+  margin-top: 1.2rem;
+  color: #5B5B5F;
+  background-color: #ffffff;
+  border: none;
+  padding: 10px 25px !important;
 }
 
 @media screen and (min-width: 750px) {
   .multicolumn .button {
-    margin-top: 4rem;
+    margin-top: 1.2rem;
   }
 }
 
@@ -85,7 +89,7 @@
 }
 
 .multicolumn-card__info > :nth-child(2) {
-  margin-top: 1rem;
+  margin-top: 7px;
 }
 
 .multicolumn-list__item.center .media--adapt,
@@ -105,8 +109,8 @@
   }
 
   .multicolumn-list:not(.slider) {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -134,6 +138,21 @@
 
 .multicolumn-card__info {
   padding: 2.5rem;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.multicolumn-card__info * {
+  color: #ffffff;
+}
+
+@media (max-width: 749px) {
+  .multicolumn-card__info, .multicolumn-card__info * {
+    text-align: center;
+  }
 }
 
 .background-none .multicolumn-card__info {
