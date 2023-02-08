@@ -327,6 +327,14 @@
     box-shadow: none;
   }
 
+  .banner--desktop-transparent .banner__box.banner__box-width--small {
+    max-width: 45rem;
+  }
+
+  .banner--desktop-transparent .banner__box.banner__box-width--large {
+    max-width: 75rem;
+  }
+
   .banner--desktop-transparent .button--secondary {
     --color-button: 255, 255, 255;
     --color-button-text: 255, 255, 255;
@@ -435,4 +443,27 @@
 
 .banner__box > * + .banner__buttons {
   margin-top: 2rem;
+}
+
+.banner__buttons .button--primary, .absolute__buttons .button--primary {
+  color: #5B5B5F;
+  background-color: #ffffff;
+  border: none;
+}
+
+.absolute__buttons {
+  position: absolute;
+  width: 100%;
+  bottom: 48px;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 2;
+}
+
+@media (max-width: 749px) {
+  .banner__media-half {
+    width: 100%;
+  }
 }
