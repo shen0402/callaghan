@@ -56,7 +56,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>LOS MÁS VENDIDOS<\/p>",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
         "text": {
