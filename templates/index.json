@@ -162,12 +162,133 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "e42f6607-4bae-4d6a-9df8-28b276a9fb9c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17936680124725__e42f6607-4bae-4d6a-9df8-28b276a9fb9c-167586439566222101-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Sobre Callaghan<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--17936680124725__e42f6607-4bae-4d6a-9df8-28b276a9fb9c-167586439566222101-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet consectetur.<br\/>Ut nunc odio eget sit gravida. Vel faucibus neque tortor donec bibendum adipiscing.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17936680124725__e42f6607-4bae-4d6a-9df8-28b276a9fb9c-167586439566222101-0",
+        "template--17936680124725__e42f6607-4bae-4d6a-9df8-28b276a9fb9c-167586439566222101-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "6075c153-26c4-4286-980a-761e0f37f440": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17936680124725__6075c153-26c4-4286-980a-761e0f37f440-1675864522be4f4d0c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Callaghan Personal",
+            "heading_size": "h2"
+          }
+        },
+        "template--17936680124725__6075c153-26c4-4286-980a-761e0f37f440-1675864522be4f4d0c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Zapatos adaptados a tu peso gracias a la tecnología de impresión 3D.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17936680124725__6075c153-26c4-4286-980a-761e0f37f440-1675864522be4f4d0c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "DESCUBRIR",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17936680124725__6075c153-26c4-4286-980a-761e0f37f440-1675864522be4f4d0c-0",
+        "template--17936680124725__6075c153-26c4-4286-980a-761e0f37f440-1675864522be4f4d0c-1",
+        "template--17936680124725__6075c153-26c4-4286-980a-761e0f37f440-1675864522be4f4d0c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/iwt1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "888ce3fa-2a4c-4dde-ae6b-7861caf26873": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17936680124725__888ce3fa-2a4c-4dde-ae6b-7861caf26873-1675864522be4f4d0c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Colegiales Gorila",
+            "heading_size": "h2"
+          }
+        },
+        "template--17936680124725__888ce3fa-2a4c-4dde-ae6b-7861caf26873-1675864522be4f4d0c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>El zapato resistente a los niños<br\/>ofreciendo máxima comodidad.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17936680124725__888ce3fa-2a4c-4dde-ae6b-7861caf26873-1675864522be4f4d0c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "DESCUBRIR",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--17936680124725__888ce3fa-2a4c-4dde-ae6b-7861caf26873-1675864522be4f4d0c-0",
+        "template--17936680124725__888ce3fa-2a4c-4dde-ae6b-7861caf26873-1675864522be4f4d0c-1",
+        "template--17936680124725__888ce3fa-2a4c-4dde-ae6b-7861caf26873-1675864522be4f4d0c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/iwt2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
     "featured_collection",
-    "multicolumn"
+    "multicolumn",
+    "e42f6607-4bae-4d6a-9df8-28b276a9fb9c",
+    "6075c153-26c4-4286-980a-761e0f37f440",
+    "888ce3fa-2a4c-4dde-ae6b-7861caf26873"
   ]
 }
