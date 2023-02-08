@@ -309,7 +309,7 @@
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 84,
-        "padding_bottom": 44
+        "padding_bottom": 84
       }
     },
     "26c97d60-1ee7-4a8a-bd4b-3557724ef5fb": {
@@ -342,7 +342,7 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 100,
         "padding_bottom": 100
       }
     }
