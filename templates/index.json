@@ -55,28 +55,40 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "<p>LOS MÁS VENDIDOS<\/p>",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Lorem ipsum dolor sit amet consectetur.<br\/>Ut nunc odio eget sit gravida. Vel faucibus neque tortor donec bibendum adipiscing.<\/p>"
+          }
+        },
+        "f0c67335-564f-401a-9d76-1965435f71b4": {
+          "type": "button",
+          "settings": {
+            "button_label": "HOMBRE",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "button_label_2": "MUJER",
+            "button_link_2": "shopify:\/\/collections\/all",
+            "button_style_secondary_2": true
           }
         }
       },
       "block_order": [
         "heading",
-        "text"
+        "text",
+        "f0c67335-564f-401a-9d76-1965435f71b4"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "padding_top": 100,
+        "padding_bottom": 44
       }
     },
     "featured_collection": {
@@ -91,9 +103,9 @@
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
@@ -101,9 +113,9 @@
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
+        "swipe_on_mobile": true,
+        "padding_top": 44,
+        "padding_bottom": 44
       }
     },
     "collage": {
