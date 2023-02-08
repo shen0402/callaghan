@@ -56,7 +56,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>LOS MÁS VENDIDOS<\/p>",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "text": {
@@ -94,7 +94,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -280,6 +280,70 @@
         "padding_top": 8,
         "padding_bottom": 8
       }
+    },
+    "a3847c4f-042b-4f33-8b10-ec3832c0fcb0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17936680124725__a3847c4f-042b-4f33-8b10-ec3832c0fcb0-167586439566222101-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>#callahanshoes<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--17936680124725__a3847c4f-042b-4f33-8b10-ec3832c0fcb0-167586439566222101-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Estamos deseando conocer tu experiencia Callaghan.<br\/>Comparte tu look con @callaghan_shoes y #callaghanshoes<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17936680124725__a3847c4f-042b-4f33-8b10-ec3832c0fcb0-167586439566222101-0",
+        "template--17936680124725__a3847c4f-042b-4f33-8b10-ec3832c0fcb0-167586439566222101-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 84,
+        "padding_bottom": 44
+      }
+    },
+    "26c97d60-1ee7-4a8a-bd4b-3557724ef5fb": {
+      "type": "newsletter",
+      "blocks": {
+        "template--17936680124725__26c97d60-1ee7-4a8a-bd4b-3557724ef5fb-16758650894b501e83-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "No te pierdas nada",
+            "heading_size": "h0"
+          }
+        },
+        "template--17936680124725__26c97d60-1ee7-4a8a-bd4b-3557724ef5fb-16758650894b501e83-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Suscríbete a nuestro boletín y entérate de todas nuestras ofertas y lanzamientos.<br\/>Envíanos tu correo electrónico y recibe un 10% DE DESCUENTO en tu primera compra.<\/p>"
+          }
+        },
+        "template--17936680124725__26c97d60-1ee7-4a8a-bd4b-3557724ef5fb-16758650894b501e83-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--17936680124725__26c97d60-1ee7-4a8a-bd4b-3557724ef5fb-16758650894b501e83-0",
+        "template--17936680124725__26c97d60-1ee7-4a8a-bd4b-3557724ef5fb-16758650894b501e83-1",
+        "template--17936680124725__26c97d60-1ee7-4a8a-bd4b-3557724ef5fb-16758650894b501e83-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
@@ -289,6 +353,8 @@
     "multicolumn",
     "e42f6607-4bae-4d6a-9df8-28b276a9fb9c",
     "6075c153-26c4-4286-980a-761e0f37f440",
-    "888ce3fa-2a4c-4dde-ae6b-7861caf26873"
+    "888ce3fa-2a4c-4dde-ae6b-7861caf26873",
+    "a3847c4f-042b-4f33-8b10-ec3832c0fcb0",
+    "26c97d60-1ee7-4a8a-bd4b-3557724ef5fb"
   ]
 }
