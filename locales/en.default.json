@@ -56,9 +56,9 @@
     }
   },
   "newsletter": {
-    "label": "Email",
+    "label": "Escribe tu correo electrónico",
     "success": "Thanks for subscribing",
-    "button_label": "Subscribe"
+    "button_label": "ENVIAR"
   },
   "accessibility": {
     "skip_to_text": "Skip to content",
