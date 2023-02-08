@@ -92,7 +92,10 @@
 }
 
 .card .media {
-  width: 100%;
+  width: 90%;
+  height: 90%;
+  top: 5%;
+  left: 5%;
 }
 
 .card__media {
