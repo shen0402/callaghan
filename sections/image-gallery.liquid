@@ -8,9 +8,15 @@
   href="{{ 'component-card.css' | asset_url }}"
   media="print"
   onload="this.media='all'">
+<link
+  rel="stylesheet"
+  href="{{ 'component-image-gallery.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'">
 
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-card.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-image-gallery.css' | asset_url | stylesheet_tag }}</noscript>
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -26,7 +32,7 @@
 {%- endstyle -%}
 <div class="image-gallery page-width section-{{ section.id }}-padding">
   <slider-component class="slider-mobile-gutter slider-component-desktop">
-    <ul id="Slider-{{ section.id }}"class="grid grid--peek grid--2-col-tablet grid--2-col-desktop slider slider--tablet"role="list">
+    <ul id="Slider-{{ section.id }}"class="grid grid--2-col-desktop grid--1-col-tablet-down slider slider--desktop slider--tablet grid--peek"role="list">
       {%- for block in section.blocks -%}
         <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item slider__slide slider__slide--full-width">
           <div class="image-gallery__item">
