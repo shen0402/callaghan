@@ -134,6 +134,17 @@
             {%- endif -%}
           </div>
         </div>
+        {% for product_option in card_product.options_with_values %}
+          {% if product_option.name == "Size" %}
+             <div class="card__variants">
+              {%  for option in product_option.values %}
+                <span class="card__variant {%  if option == product_option.selected_value %}active{% endif %}">
+                  {{ option }}
+                </span>
+              {% endfor %}
+             </div>
+          {% endif %}
+        {% endfor %}
       </div>
       <div class="card__content">
         <div class="card__information">
