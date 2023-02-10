@@ -466,4 +466,13 @@
   .banner__media-half {
     width: 100%;
   }
+
+  .absolute__buttons {
+    bottom: 30px;
+  }
+
+  .banner__buttons .button--primary, .absolute__buttons .button--primary {
+    padding: 7px 20px !important;
+    font-size: 12px !important;
+  }
 }

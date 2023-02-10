@@ -92,3 +92,9 @@
 .rich-text__buttons {
   margin-top: 2rem;
 }
+
+@media (max-width: 749px) {
+  .rich-text__buttons {
+    margin-top: 1.2rem;
+  }
+}

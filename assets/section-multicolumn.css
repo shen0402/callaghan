@@ -245,3 +245,9 @@
     display: list-item;
   }
 }
+
+@media (max-width: 749px) {
+  .multicolumn .rte p {
+    font-size: 16px;
+  }
+}

@@ -1,6 +1,10 @@
 .newsletter__wrapper {
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+.newsletter__wrapper * {
+  letter-spacing: 0.1px;
 }
 
 .newsletter__wrapper h2 {
@@ -11,6 +15,16 @@
   .newsletter__wrapper {
     padding-right: 9rem;
     padding-left: 9rem;
+  }
+}
+
+@media (max-width: 749px) {
+  .newsletter__wrapper h2 {
+    font-size: 22px;
+  }
+
+  .newsletter__subheading p {
+    font-size: 16px;
   }
 }
 

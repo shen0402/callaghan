@@ -180,6 +180,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+  letter-spacing: 0.1px;
 }
 
 .card__heading:last-child {
@@ -373,8 +374,8 @@
 }
 
 @media (max-width: 749px) {
-  .card__heading, .card-information * {
-    font-size: 12px;
+  .card-information * {
+    font-size: 14px;
   }
 }
 
