@@ -2204,9 +2204,12 @@ input[type='checkbox'] {
 }
 
 .announcement-bar__message {
-  padding: 1rem 0;
   margin: 0;
   letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  padding: 7px 0;
+  font-size: 12px;
+  line-height: 14px;
 }
 
 /* section-header */
