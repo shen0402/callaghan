@@ -245,4 +245,7 @@
     .free-samples--btn {
         margin-top: 24px;
     }
+    .new-difference--item__grid-inner {
+        justify-content: center;
+    }
 }
