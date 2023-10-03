@@ -160,7 +160,7 @@
 .new-difference--text {
     font-size: 26px;
     line-height: 38px;
-    color: #5BC1BE;
+    color: #5BC1BE !important;
 }
 
 .new-difference--item__grid {
