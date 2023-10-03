@@ -38,7 +38,8 @@
       "settings": {
         "heading": "The Dr. Jen Difference",
         "text": "<p>We use the clinically-proven optimal concentration of 10% Nano-Hydroxyapatite<\/p>",
-        "back_color": "#FFFFFF",
+        "image": "shopify:\/\/shop_images\/a.png",
+        "back_color": "#fdf3ef",
         "padding_top": 60,
         "padding_bottom": 60,
         "padding_top_mobile": 60,
