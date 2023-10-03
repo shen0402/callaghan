@@ -26,7 +26,7 @@
         "allow_number": true,
         "btn_text": "Apply Now",
         "btn_link": "#",
-        "back_color": "#FFFFFF",
+        "back_color": "#ffffff",
         "padding_top": 60,
         "padding_bottom": 60,
         "padding_top_mobile": 60,
@@ -61,7 +61,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_50_2.png",
-            "text": "<p>Cross-section of b. showing tubular<br\/>occlusion and uniform surface coating<br\/>formed<\/p>"
+            "text": "<p>Cross-section of b. showing tubular occlusion and uniform surface coating formed<\/p>"
           }
         }
       },
