@@ -12,7 +12,11 @@
     width: 50%;
 }
 
-.free-samples--image {
-    position: relative;
-    overflow: hidden;
+.free-samples--image img {
+    width: 100%;
+    height: auto;
+}
+
+.free-samples--body {
+    padding: 0 60px;
 }
