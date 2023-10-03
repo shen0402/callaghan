@@ -44,4 +44,28 @@
 
 .number-list li {
     margin-bottom: 16px;
+    position: relative;
+}
+
+.number-list li::before {
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 22px;
+    line-height: 32px;
+    color: #fff;
+    background-color: #E04880;
+    border-radius: 50px;
+}
+
+.number-list li::after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #E04880;
 }
