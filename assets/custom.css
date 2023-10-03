@@ -194,6 +194,10 @@
     position: absolute;
 }
 
+.new-difference--item__grid-item:last-of-type::before {
+    display: none;
+}
+
 .new-difference--item__grid-header {
     display: flex;
     justify-content: space-between;
