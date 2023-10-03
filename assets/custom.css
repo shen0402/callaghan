@@ -248,4 +248,7 @@
     .new-difference--item__grid-inner {
         justify-content: center;
     }
+    .new-difference--heading {
+        text-align: center;
+    }
 }
