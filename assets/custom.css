@@ -39,12 +39,13 @@
 
 .number-list ul {
     list-style: none;
-    padding-left: 48px;
+    padding-left: 0;
 }
 
 .number-list li {
     margin-bottom: 16px;
     position: relative;
+    padding-left: 48px;
 }
 
 .number-list li::before {
