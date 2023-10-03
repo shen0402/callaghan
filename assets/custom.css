@@ -198,6 +198,11 @@
     height: auto;
 }
 
+.new-difference--item__grid-text {
+    font-size: 10px;
+    line-height: 12px;
+}
+
 @media (max-width: 768px) {
     .section-width {
         padding-left: 30px;
