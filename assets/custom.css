@@ -251,4 +251,17 @@
     .new-difference--heading {
         text-align: center;
     }
+    .new-difference--text {
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .new-difference--image {
+        margin-top: 64px;
+    }
+
+    .new-difference--image img {
+        margin: 0;
+    }
 }
