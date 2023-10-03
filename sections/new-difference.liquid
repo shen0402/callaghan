@@ -58,6 +58,9 @@
                 </div>
             {% endif %}
         </div>
+        <div class="new-difference--image">
+            {{ section.settings.image | img_url: '480x' | img_tag }}
+        </div>
     </div>
 </div>
 {% schema %}
