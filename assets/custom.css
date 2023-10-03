@@ -124,6 +124,10 @@
     background-color: transparent;
 }
 
+.free-samples--btn {
+    margin-top: 40px;
+}
+
 @media (max-width: 768px) {
     .section-width {
         padding-left: 30px;
@@ -143,5 +147,8 @@
     .free-samples--text {
         font-size: 14px;
         line-height: 24px;
+    }
+    .free-samples--btn {
+        margin-top: 24px;
     }
 }
