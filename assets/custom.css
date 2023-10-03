@@ -244,10 +244,27 @@
 .new-difference--item__grid-text {
     font-size: 10px;
     line-height: 12px;
+    padding-left: 15px;
+    position: relative;
 }
 
-.new-difference--item__grid-text p {
-    margin: 12px 0;
+.new-difference--item__grid-text::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.new-difference--item__grid-item:nth-of-type(1) .new-difference--item__grid-text::before {
+    content: 'A';
+}
+
+.new-difference--item__grid-item:nth-of-type(2) .new-difference--item__grid-text::before {
+    content: 'B';
+}
+
+.new-difference--item__grid-item:nth-of-type(3) .new-difference--item__grid-text::before {
+    content: 'C';
 }
 
 @media (max-width: 768px) {
