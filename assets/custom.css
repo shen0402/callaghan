@@ -139,8 +139,12 @@
     flex-wrap: wrap;
 }
 
-.new-difference--body, .new-difference--image{
-    width: 50%;
+.new-difference--body {
+    width: 55%;
+}
+
+.new-difference--image {
+    width: 45%;
 }
 
 .new-difference--image img {
