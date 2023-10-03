@@ -63,6 +63,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    z-index: 1;
 }
 
 .number-list li:nth-of-type(1):before {
@@ -86,12 +87,16 @@
 }
 
 .number-list li::after {
-    content: ' ';
+    content: " ";
     display: block;
     position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 1px;
-    height: 20px;
-    background-color: #E04880;
+    top: 25px;
+    left: 14px;
+    width: 3px;
+    height: 75px;
+    background-color: #e04880;
+}
+
+.number-list li:last-of-type:after {
+    display: none;
 }
