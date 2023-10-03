@@ -203,6 +203,10 @@
     line-height: 12px;
 }
 
+.new-difference--item__grid-text p {
+    margin: 12px 0;
+}
+
 @media (max-width: 768px) {
     .section-width {
         padding-left: 30px;
