@@ -110,4 +110,6 @@
     font-size: 18px;
     line-height: 29px;
     font-weight: 700;
+    border-radius: 6px;
+    border: 1px solid #e04880;
 }
