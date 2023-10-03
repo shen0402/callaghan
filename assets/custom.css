@@ -102,5 +102,12 @@
 }
 
 .btn {
-    padding: 16px;
+    padding: 12px;
+    background-color: #e04880;
+    text-transform: uppercase;
+    min-width: 240px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 700;
 }
