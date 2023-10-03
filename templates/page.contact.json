@@ -54,7 +54,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_50_1.png",
-            "text": "<p>Same surface after brushing with nano@ toothpaste<\/p>"
+            "text": "<p>Same surface after brushing with nano&lt;MHAP&gt;@ toothpaste<\/p>"
           }
         },
         "dcad2d95-de59-4299-bc24-1a4ed978d22e": {
