@@ -160,6 +160,7 @@
 .new-difference--item__grid {
     background-color: #fff;
     margin-top: 24px;
+    padding: 24px 40px;
 }
 
 .new-difference--item__grid-inner {
