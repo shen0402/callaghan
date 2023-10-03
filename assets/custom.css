@@ -145,6 +145,17 @@
     margin-left: 70px;
 }
 
+.new-difference--heading {
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.new-difference--text {
+    font-size: 26px;
+    line-height: 38px;
+}
 @media (max-width: 768px) {
     .section-width {
         padding-left: 30px;
