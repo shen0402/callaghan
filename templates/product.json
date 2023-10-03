@@ -83,6 +83,20 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "805a3fcd-2a78-4d2f-808a-241cdf37d62a": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "a43c2ec5-cad7-494b-8796-b2fe05151d2e": {
+          "type": "shopify:\/\/apps\/sezzle-widget\/blocks\/widget-block\/f3a53793-e118-4764-a86b-a79bfedb0d5f",
+          "settings": {
+            "heading": "Sezzle Widget",
+            "font_size": 14,
+            "font_family": "inherit"
+          }
         }
       },
       "block_order": [
@@ -97,7 +111,9 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "805a3fcd-2a78-4d2f-808a-241cdf37d62a",
+        "a43c2ec5-cad7-494b-8796-b2fe05151d2e"
       ],
       "settings": {
         "enable_sticky_info": true,
