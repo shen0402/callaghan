@@ -251,4 +251,9 @@
     .new-difference--heading {
         text-align: center;
     }
+    .new-difference--text {
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+    }
 }
