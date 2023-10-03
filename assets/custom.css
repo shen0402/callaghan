@@ -61,6 +61,26 @@
     border-radius: 50px;
 }
 
+.number-list li:nth-of-type(1):before {
+    content: '1';
+}
+
+.number-list li:nth-of-type(2):before {
+    content: '2';
+}
+
+.number-list li:nth-of-type(3):before {
+    content: '3';
+}
+
+.number-list li:nth-of-type(4):before {
+    content: '4';
+}
+
+.number-list li:nth-of-type(5):before {
+    content: '5';
+}
+
 .number-list li::after {
     content: ' ';
     display: block;
