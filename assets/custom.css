@@ -162,6 +162,21 @@
     margin-top: 24px;
 }
 
+.new-difference--item__grid-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-difference--item__grid-item {
+    width: 30%;
+    margin-left: 5%;
+}
+
+.new-difference--item__grid-item:first-of-type {
+    margin-left: 0;
+}
+
 @media (max-width: 768px) {
     .section-width {
         padding-left: 30px;
