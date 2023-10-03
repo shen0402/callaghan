@@ -180,6 +180,14 @@
 .new-difference--item__grid-item {
     width: 30%;
     max-width: 168px;
+    position: relative;
+}
+
+.new-difference--item__grid-item::before {
+    content: ' ';
+    display: block;
+    width: 9px;
+    height: 22px;
 }
 
 .new-difference--item__grid-header {
