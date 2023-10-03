@@ -11,3 +11,8 @@
 .free-samples--image, .free-samples--body {
     width: 50%;
 }
+
+.free-samples--image {
+    position: relative;
+    overflow: hidden;
+}
