@@ -168,6 +168,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 16px;
+    flex-wrap: wrap;
 }
 
 .new-difference--item__grid-item {
@@ -226,7 +227,7 @@
         padding-left: 30px;
         padding-right: 30px;
     }
-    .free-samples--image, .free-samples--body, .new-difference--body, .new-difference--image {
+    .free-samples--image, .free-samples--body, .new-difference--body, .new-difference--image, .new-difference--item__grid-item {
         width: 100%;
     }
     .free-samples--body {
