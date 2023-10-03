@@ -178,6 +178,25 @@
     margin-left: 0;
 }
 
+.new-difference--item__grid-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-difference--item__grid-heading {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.new-difference--item__grid-subheading {
+    font-size: 10px;
+    line-height: 12px;
+    margin: 0;
+}
+
 @media (max-width: 768px) {
     .section-width {
         padding-left: 30px;
