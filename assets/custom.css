@@ -156,6 +156,12 @@
     font-size: 26px;
     line-height: 38px;
 }
+
+.new-difference--item__grid {
+    background-color: #fff;
+    margin-top: 24px;
+}
+
 @media (max-width: 768px) {
     .section-width {
         padding-left: 30px;
