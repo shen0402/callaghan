@@ -141,6 +141,8 @@
 .new-difference--image img {
     max-width: 100%;
     height: auto;
+    display: block;
+    margin-left: 70px;
 }
 
 @media (max-width: 768px) {
