@@ -6,6 +6,7 @@
 
 .free-samples--wrapper {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .free-samples--image, .free-samples--body {
@@ -121,4 +122,14 @@
 .btn:hover {
     color: #E04880;
     background-color: transparent;
+}
+
+@media (max-width: 768px) {
+    .section-width {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .free-samples--image, .free-samples--body {
+        width: 100%;
+    }
 }
