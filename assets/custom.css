@@ -188,9 +188,9 @@
     display: block;
     width: 0;
 	height: 0;
-	border-top: 8px solid transparent;
-	border-left: 22px solid #5DC7D1;
-	border-bottom: 8px solid transparent;
+	border-top: 22px solid transparent;
+	border-left: 8px solid #5DC7D1;
+	border-bottom: 22px solid transparent;
     top: 75px;
     right: -17px;
     position: absolute;
