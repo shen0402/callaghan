@@ -252,19 +252,19 @@
     position: absolute;
     top: 0;
     left: 0;
-    
+
 }
 
 .new-difference--item__grid-item:nth-of-type(1) .new-difference--item__grid-text::before {
-    content: 'A';
+    content: 'A.';
 }
 
 .new-difference--item__grid-item:nth-of-type(2) .new-difference--item__grid-text::before {
-    content: 'B';
+    content: 'B.';
 }
 
 .new-difference--item__grid-item:nth-of-type(3) .new-difference--item__grid-text::before {
-    content: 'C';
+    content: 'C.';
 }
 
 @media (max-width: 768px) {
