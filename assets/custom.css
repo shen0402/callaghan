@@ -191,6 +191,7 @@
     background-color: #5DC7D1;
     top: 85px;
     right: -20px;
+    position: absolute;
 }
 
 .new-difference--item__grid-header {
