@@ -132,4 +132,7 @@
     .free-samples--image, .free-samples--body {
         width: 100%;
     }
+    .free-samples--body {
+        padding: 0;
+    }
 }
