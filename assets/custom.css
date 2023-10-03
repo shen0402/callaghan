@@ -115,4 +115,10 @@
     text-decoration: none;
     display: inline-block;
     text-align: center;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    color: #E04880;
+    background-color: transparent;
 }
