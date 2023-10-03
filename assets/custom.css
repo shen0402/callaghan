@@ -166,6 +166,7 @@
 .new-difference--item__grid-inner {
     display: flex;
     justify-content: space-between;
+    margin-top: 16px;
 }
 
 .new-difference--item__grid-item {
