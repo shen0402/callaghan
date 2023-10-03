@@ -161,10 +161,10 @@
     margin-bottom: 16px;
 }
 
-.new-difference--text {
+.new-difference--text p {
     font-size: 26px;
     line-height: 38px;
-    color: #5BC1BE !important;
+    color: #5BC1BE;
 }
 
 .new-difference--item__grid {
