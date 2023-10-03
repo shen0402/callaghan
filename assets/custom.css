@@ -165,17 +165,13 @@
 
 .new-difference--item__grid-inner {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 .new-difference--item__grid-item {
     width: 30%;
-    margin-left: 5%;
-}
-
-.new-difference--item__grid-item:first-of-type {
-    margin-left: 0;
+    max-width: 168px;
 }
 
 .new-difference--item__grid-header {
