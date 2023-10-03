@@ -100,3 +100,7 @@
 .number-list li:last-of-type:after {
     display: none;
 }
+
+.btn {
+    padding: 16px;
+}
