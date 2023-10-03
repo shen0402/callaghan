@@ -254,6 +254,18 @@
     .free-samples--image, .free-samples--body, .new-difference--body, .new-difference--image, .new-difference--item__grid-item {
         width: 100%;
     }
+    .new-difference--item__grid-item {
+        margin-top: 40px;
+    }
+    .new-difference--item__grid-item:first-of-type {
+        margin-top: 0;
+    }
+    .new-difference--item__grid-item:before {
+        top: unset;
+        bottom: -25px;
+        transform: rotate(90deg);
+        right: 75px;
+    }
     .free-samples--body {
         padding: 60px 0 0 0;
     }
