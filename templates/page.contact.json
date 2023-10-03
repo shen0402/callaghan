@@ -35,6 +35,42 @@
     },
     "f1088e9b-20e2-408d-a159-253f1c26ea33": {
       "type": "new-difference",
+      "blocks": {
+        "97670903-a943-4913-85cf-e89c5e5e1085": {
+          "type": "header",
+          "settings": {
+            "heading": "SEM Observation (Ohta 2007, x 10,000)",
+            "subheading": "Photos supplied by Sangi."
+          }
+        },
+        "43893123-bfcd-49b8-8934-f0dd9187537a": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_50.png",
+            "text": "<p>Mechanically exposed dentin and dential tubules.<\/p>"
+          }
+        },
+        "6b31cab3-6675-430c-886c-bef06ef1e1af": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_50_1.png",
+            "text": "<p>Same surface after brushing with nano@ toothpaste<\/p>"
+          }
+        },
+        "dcad2d95-de59-4299-bc24-1a4ed978d22e": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_50_2.png",
+            "text": "<p>Cross-section of b. showing tubular<br\/>occlusion and uniform surface coating<br\/>formed<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "97670903-a943-4913-85cf-e89c5e5e1085",
+        "43893123-bfcd-49b8-8934-f0dd9187537a",
+        "6b31cab3-6675-430c-886c-bef06ef1e1af",
+        "dcad2d95-de59-4299-bc24-1a4ed978d22e"
+      ],
       "settings": {
         "heading": "The Dr. Jen Difference",
         "text": "<p>We use the clinically-proven optimal concentration of 10% Nano-Hydroxyapatite<\/p>",
