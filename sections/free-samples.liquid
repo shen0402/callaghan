@@ -1,0 +1,138 @@
+{% stylesheet %}
+    #section--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+        background-color: {{ section.settings.back_color }};
+    }
+
+    @media (max-width: 768px) {
+        #section--{{ section.id }} {
+            padding-top: {{ section.settings.padding_top_mobile }}px;
+            padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+        }
+    }
+{% endstylesheet %}
+<div class="section-width free-samples" id="section--{{ section.id }}">
+    <div class="free-samples--wrapper">
+        <div class="free-samples--image">
+            {{ section.settings.image | img_url: "600x" | img_tag }}
+        </div>
+        <div class="free-samples--body">
+            {% if section.settings.heading != blank %}
+                <div class="free-samples--heading">
+                    {{ section.settings.heading }}
+                </div>
+            {% endif %}
+            {% if section.settings.text != blank %}
+                <div class="free-samples--text {% if section.settings.allow_number %}number-list{% endif %}">
+                    {{ section.settings.text }}
+                </div>
+            {% endif %}
+            {% if section.settings.btn_text != blank and section.settings.btn_link != blank %}
+                <a class="btn free-samples--btn" href="{{ section.settings.btn_link }}">{{ section.settings.btn_text }}</a>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% schema %}
+    {
+        "name": "Free Samples",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            },
+            {
+                "type": "richtext",
+                "id": "heading",
+                "label": "Heading",
+                "default": "<h2>Apply for your <b>free samplese</b> and Lunch and Learn credits</h2>"
+            },
+            {
+                "type": "header",
+                "content": "Body"
+            },
+            {
+                "type": "richtext",
+                "id": "text",
+                "label": "Text"
+            },
+            {
+                "type": "checkbox",
+                "id": "allow_number",
+                "label": "Allow Number",
+                "default": false
+            },
+            {
+                "type": "header",
+                "content": "Button"
+            },
+            {
+                "type": "text",
+                "id": "btn_text",
+                "label": "Button Label",
+                "default": "Apply Now"
+            },
+            {
+                "type": "url",
+                "id": "btn_link",
+                "label": "Button Link"
+            },
+            {
+                "type": "color",
+                "id": "back_color",
+                "label": "Background Color",
+                "default": "#FFFFFF"
+            },
+            {
+                "type": "header",
+                "content": "Section Padding"
+            },
+            {
+                "type": "range",
+                "id": "padding_top",
+                "min": 0,
+                "max": 100,
+                "step": 5,
+                "unit": "px",
+                "label": "Padding Top",
+                "default": 60
+            },
+            {
+                "type": "range",
+                "id": "padding_bottom",
+                "min": 0,
+                "max": 100,
+                "step": 5,
+                "unit": "px",
+                "label": "Padding Bottom",
+                "default": 60
+            },
+            {
+                "type": "header",
+                "content": "Section Padding"
+            },
+            {
+                "type": "range",
+                "id": "padding_top_mobile",
+                "min": 0,
+                "max": 100,
+                "step": 5,
+                "unit": "px",
+                "label": "Mobile Padding Top",
+                "default": 60
+            },
+            {
+                "type": "range",
+                "id": "padding_bottom_mobile",
+                "min": 0,
+                "max": 100,
+                "step": 5,
+                "unit": "px",
+                "label": "Mobile Padding Bottom",
+                "default": 60
+            }
+        ]
+    }
+{% endschema %}
