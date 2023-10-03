@@ -246,6 +246,7 @@
     line-height: 12px;
     padding-left: 15px;
     position: relative;
+    letter-spacing: 0.2px;
 }
 
 .new-difference--item__grid-text::before {
