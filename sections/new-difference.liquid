@@ -1,3 +1,65 @@
+{% stylesheet %}
+    #section--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+        background-color: {{ section.settings.back_color }};
+    }
+
+    @media (max-width: 768px) {
+        #section--{{ section.id }} {
+            padding-top: {{ section.settings.padding_top_mobile }}px;
+            padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+        }
+    }
+{% endstylesheet %}
+<div class="section-width new-difference" id="section--{{ section.id }}">
+    <div class="new-difference--wrapper">
+        <div class="new-difference--body">
+            {% if section.settings.heading != blank %}
+                <h2 class="new-difference--heading">
+                    {{ section.settings.heading }}
+                </h2>
+            {% endif %}
+            {% if section.settings.text != blank %}
+                <div class="new-difference--text">
+                    {{ section.settings.text }}
+                </div>
+            {% endif %}
+            {% assign header = section.blocks | where: "type", "header" | first %}
+            {% assign items = section.blocks | where: "type", "item" %}
+            {% if items.size > 0 %}
+                <div class="new-difference--item__grid">
+                    {% if header != blank %}
+                        <div class="new-difference--item__grid-header">
+                            <h4 class="new-difference--item__grid-heading">
+                                {{ header.settings.heading }}
+                            </h4>
+                            <p class="new-difference--item__grid-subheading">
+                                {{ header.settings.subheading }}
+                            </p>
+                        </div>
+                    {% endif %}
+                    <div class="new-difference--item__grid-inner">
+                        {% for item in items %}
+                            <div class="new-difference--item__grid-item">
+                                {% if item.settings.image != blank %}
+                                    <div class="new-difference--item__grid-image">
+                                        {{ item.settings.image | img_url: '170x' | img_tag }}
+                                    </div>
+                                {% endif %}
+                                {% if item.settings.text != blank %}
+                                    <div class="new-difference--item__grid-text">
+                                        {{ item.settings.text }}
+                                    </div>
+                                {% endif %}
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
 {% schema %}
     {
         "name": "New Difference Section",
