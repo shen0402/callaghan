@@ -1,4 +1,8 @@
 .section-width {
+    color: #000000;
+}
+
+.section-width {
     max-width: 1400px;
     padding-left: 110px;
     padding-right: 110px;
