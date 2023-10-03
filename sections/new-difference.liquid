@@ -1,0 +1,112 @@
+{% schema %}
+    {
+        "name": "New Difference",
+        "settings": [
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Header",
+                "default": "The Dr. Jen Difference"
+            },
+            {
+                "type": "richtext",
+                "id": "text",
+                "label": "Text",
+                "default": "<p>We use the clinically-proven optimal concentration of 10% Nano-Hydroxyapatite</p>"
+            },
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            },
+            {
+                "type": "color",
+                "id": "back_color",
+                "label": "Background Color",
+                "default": "#FFFFFF"
+            },
+            {
+                "type": "header",
+                "content": "Section Padding"
+            },
+            {
+                "type": "range",
+                "id": "padding_top",
+                "min": 0,
+                "max": 100,
+                "step": 5,
+                "unit": "px",
+                "label": "Padding Top",
+                "default": 60
+            },
+            {
+                "type": "range",
+                "id": "padding_bottom",
+                "min": 0,
+                "max": 100,
+                "step": 5,
+                "unit": "px",
+                "label": "Padding Bottom",
+                "default": 60
+            },
+            {
+                "type": "range",
+                "id": "padding_top_mobile",
+                "min": 0,
+                "max": 100,
+                "step": 5,
+                "unit": "px",
+                "label": "Mobile Padding Top",
+                "default": 60
+            },
+            {
+                "type": "range",
+                "id": "padding_bottom_mobile",
+                "min": 0,
+                "max": 100,
+                "step": 5,
+                "unit": "px",
+                "label": "Mobile Padding Bottom",
+                "default": 60
+            }
+        ],
+        "blocks": [
+            {
+                "type": "header",
+                "name": "Header",
+                "limit": 1,
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "heading",
+                        "label": "Heading",
+                        "default": "SEM Observation (Ohta 2007, x 10,000)"
+                    },
+                    {
+                        "type": "text",
+                        "id": "subheading",
+                        "label": "SubHeading",
+                        "default": "Photos supplied by Sangi."
+                    }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "Item",
+                "limit": 3,
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "Image"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "text",
+                        "label": "Text"
+                    }
+                ]
+            }
+        ]
+    }
+{% endschema %}
