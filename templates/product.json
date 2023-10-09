@@ -37,11 +37,6 @@
             "show_dynamic_checkout": true
           }
         },
-        "6b4e5afc-a675-42d1-a32f-11ab21bb4c6c": {
-          "type": "shopify:\/\/apps\/appstle-subscriptions-app\/blocks\/appstle-subscription-product-page-widget\/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
-          "settings": {
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -97,7 +92,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "6b4e5afc-a675-42d1-a32f-11ab21bb4c6c",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
