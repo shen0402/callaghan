@@ -105,6 +105,7 @@
     line-height: normal;
     letter-spacing: 1px;
     text-transform: capitalize;
+    margin: 0;
 }
 
 .upcoming-experience__item-month {
@@ -114,6 +115,7 @@
     font-style: normal;
     font-weight: 300;
     line-height: 34px; /* 212.5% */
+    margin: 0;
 }
 
 .upcoming-experience__item-text {
@@ -139,4 +141,5 @@
     font-style: normal;
     font-weight: 400;
     line-height: 34px; /* 212.5% */
+    margin: 0;
 }
