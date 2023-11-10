@@ -10,3 +10,12 @@
     text-transform: uppercase;
     margin: 0;
 }
+
+.upcoming-experience__flex {
+    display: flex;
+    justify-content: center;
+}
+
+.upcoming-experience__image, .upcoming-experience__list {
+    width: calc(50% - 50px);
+}
