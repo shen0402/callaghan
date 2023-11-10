@@ -150,6 +150,13 @@
     margin: 0;
 }
 
+.upcoming-experience__item-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
 .upcoming-experience__item-link a {
     display: flex;
     justify-content: center;
