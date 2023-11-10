@@ -28,3 +28,11 @@
 .upcoming-experience__image, .upcoming-experience__list {
     width: calc(50% - 50px);
 }
+
+.upcoming-experience__image {
+    margin-left: 40px;
+}
+
+.upcoming-experience__list {
+    margin-left: 60px;
+}
