@@ -127,6 +127,7 @@
     line-height: 34px; /* 212.5% */
     margin: 0;
     line-height: 1;
+    text-align: center;
 }
 
 .upcoming-experience__item-text {
