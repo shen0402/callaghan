@@ -182,3 +182,7 @@
     width: 12px;
     height: auto;
 }
+
+.upcoming-experience__item:hover .upcoming-experience__item-link {
+    background-color: #3E1D25;
+}
