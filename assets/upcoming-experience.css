@@ -213,7 +213,7 @@
         margin-bottom: 24px;
     }
 
-    .upcoming-experience__image-links a {
+    .upcoming-experience__image-links a:last-of-type {
         margin: 0;
     }
 }
