@@ -198,4 +198,12 @@
         width: 100%;
         margin: 0;
     }
+
+    .upcoming-experience__image-links {
+        position: relative;
+        left: unset;
+        top: unset;
+        background-color: transparent;
+        padding: 0;
+    }
 }
