@@ -225,5 +225,16 @@
 
     .upcoming-experience__item {
         padding: 16px 16px 32px;
+        flex-wrap: wrap;
+    }
+
+    .upcoming-experience__item-cd, .upcoming-experience__item-text, .upcoming-experience__item-link {
+        width: 100%;
+    }
+
+    .upcoming-experience__item-link {
+        position: relative;
+        top: unset;
+        right: unset;
     }
 }
