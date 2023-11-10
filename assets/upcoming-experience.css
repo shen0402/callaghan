@@ -143,3 +143,7 @@
     line-height: 34px; /* 212.5% */
     margin: 0;
 }
+
+.upcoming-experience__item-body p {
+    margin: 0;
+}
