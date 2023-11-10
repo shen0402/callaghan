@@ -222,4 +222,8 @@
     .upcoming-experience__list {
         margin-top: 40px;
     }
+
+    .upcoming-experience__item {
+        padding: 16px 16px 32px;
+    }
 }
