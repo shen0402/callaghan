@@ -81,12 +81,66 @@
         "padding_top_mobile": 60,
         "padding_bottom_mobile": 60
       }
+    },
+    "40aec38b-77e6-4067-bcbd-255db0732339": {
+      "type": "upcoming-experiences",
+      "blocks": {
+        "b8978e36-9e96-47a9-9ad2-375d10ebfc8a": {
+          "type": "experience",
+          "settings": {
+            "day": "12",
+            "month": "APR",
+            "heading": "Ticketed experiences",
+            "text": "<p>Event name goes here and continues<\/p>",
+            "link": "#"
+          }
+        },
+        "181ac450-103c-4f57-8a15-611e5da45013": {
+          "type": "experience",
+          "settings": {
+            "day": "12",
+            "month": "MAY",
+            "heading": "Ticketed experiences",
+            "text": "<p>Event name goes here and continues<\/p>",
+            "link": "#"
+          }
+        },
+        "a336bcf7-8940-43fb-86f2-869045aebe7b": {
+          "type": "experience",
+          "settings": {
+            "day": "12",
+            "month": "JUL",
+            "heading": "Ticketed experiences",
+            "text": "<p>Event name goes here and continues<\/p>",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "b8978e36-9e96-47a9-9ad2-375d10ebfc8a",
+        "181ac450-103c-4f57-8a15-611e5da45013",
+        "a336bcf7-8940-43fb-86f2-869045aebe7b"
+      ],
+      "settings": {
+        "heading": "Explore upcoming experiences",
+        "image": "shopify:\/\/shop_images\/Rectangle_20.png",
+        "btn1_label": "Ticketed experiences",
+        "btn1_link": "#",
+        "btn2_label": "Live music & events",
+        "btn2_link": "#",
+        "back_img": "shopify:\/\/shop_images\/Events_1.png",
+        "top_padding": 100,
+        "bottom_padding": 100,
+        "top_padding_mobile": 40,
+        "bottom_padding_mobile": 40
+      }
     }
   },
   "order": [
     "main",
     "form",
     "d456fa93-320c-4806-9340-7a926fb975a4",
-    "f1088e9b-20e2-408d-a159-253f1c26ea33"
+    "f1088e9b-20e2-408d-a159-253f1c26ea33",
+    "40aec38b-77e6-4067-bcbd-255db0732339"
   ]
 }
