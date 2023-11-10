@@ -86,6 +86,8 @@
     padding: 16px 0;
     background-color: #ffffff;
     margin-bottom: 24px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .upcoming-experience__item:last-of-type {
