@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "FinoSans";
+    src: url("Fino-Sans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "MerriweatherSans";
+    src: url("MerriweatherSans-Regular.ttf");
+}
+
 .upcoming-experience__heading {
     max-width: 450px;
     color: #772337;
