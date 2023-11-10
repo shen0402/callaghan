@@ -54,12 +54,12 @@
     line-height: 32px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    border: none;
     padding-bottom: 3px;
     border-bottom: 1px solid;
     padding: 0;
     min-width: unset;
     border-radius: 0;
-    border: none;
     text-decoration: none;
     background-color: transparent;
 }
