@@ -216,6 +216,16 @@
         src: local('UniversLTStd-Light'), url('{{ 'UniversLTStd-Light.otf' | asset_url }}') format('truetype');
       } */
 
+      @font-face {
+          font-family: 'FinoSans';
+          src: url('{{'Fino-Sans-Regular.ttf' | asset_url}}');
+      }
+
+      @font-face {
+          font-family: 'MerriweatherSans';
+          src: url('{{'MerriweatherSans-Regular.ttf' | asset_url}}');
+      }
+
       body {
         display: grid;
         grid-template-rows: auto auto 1fr auto;
