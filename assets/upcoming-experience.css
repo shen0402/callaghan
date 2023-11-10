@@ -106,6 +106,7 @@
     letter-spacing: 1px;
     text-transform: capitalize;
     margin: 0;
+    line-height: 1;
 }
 
 .upcoming-experience__item-month {
@@ -116,6 +117,7 @@
     font-weight: 300;
     line-height: 34px; /* 212.5% */
     margin: 0;
+    line-height: 1;
 }
 
 .upcoming-experience__item-text {
@@ -132,6 +134,7 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     margin: 0;
+    line-height: 1;
 }
 
 .upcoming-experience__item-body {
@@ -142,6 +145,7 @@
     font-weight: 400;
     line-height: 34px; /* 212.5% */
     margin: 0;
+    line-height: 1;
 }
 
 .upcoming-experience__item-body p {
