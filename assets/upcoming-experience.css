@@ -53,4 +53,11 @@
     line-height: 32px;
     letter-spacing: 2px;
     text-transform: uppercase;
+
+    padding: 0;
+    min-width: none;
+    border-radius: 0;
+    border: none;
+    text-decoration: underline;
+    background-color: transparent;
 }
