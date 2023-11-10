@@ -56,7 +56,7 @@
     text-transform: uppercase;
 
     padding: 0;
-    min-width: none;
+    min-width: unset;
     border-radius: 0;
     border: none;
     text-decoration: underline;
