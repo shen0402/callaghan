@@ -185,4 +185,10 @@
 
 .upcoming-experience__item:hover .upcoming-experience__item-link {
     background-color: #3E1D25;
+    transition: 0.3s;
+}
+
+.upcoming-experience__item:hover svg path {
+    stroke: #ffffff !important;
+    transition: 0.3s;
 }
