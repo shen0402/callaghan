@@ -7,14 +7,14 @@
       background-position: center;
       background-repeat: no-repeat;
     {% endif %}
-    padding-top: {{ section.settings.padding_top }}px;
-    padding-bottom: {{ section.settings.padding_bottom }}px;
+    padding-top: {{ section.settings.top_padding }}px;
+    padding-bottom: {{ section.settings.bottom_padding }}px;
   }
 
   @media (max-width: 768px) {
     #section--{{ section.id }}{
-        padding-top: {{ section.settings.padding_top_mobile }}px;
-        padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+        padding-top: {{ section.settings.top_padding_mobile }}px;
+        padding-bottom: {{ section.settings.bottom_padding_mobile }}px;
     }
   }
 </style>
