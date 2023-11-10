@@ -14,6 +14,12 @@
     margin: 0  auto;
 }
 
+@media (max-width: 768px) {
+    .page-width {
+        padding: 0 28px;
+    }
+}
+
 .upcoming-experience__heading {
     max-width: 450px;
     color: #772337;
