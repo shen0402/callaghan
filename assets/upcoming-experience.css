@@ -8,6 +8,12 @@
     src: url("MerriweatherSans-Regular.ttf");
 }
 
+.page-width {
+    padding: 0 50px;
+    max-width: 1200px;
+    margin: 0  auto;
+}
+
 .upcoming-experience__heading {
     max-width: 450px;
     color: #772337;
