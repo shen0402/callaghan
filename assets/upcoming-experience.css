@@ -211,9 +211,11 @@
         background-color: transparent;
         padding: 0;
         margin-bottom: 24px;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .upcoming-experience__image-links a:last-of-type {
-        margin: 0;
+        margin-left: 5px;
     }
 }
