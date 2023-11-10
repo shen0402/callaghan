@@ -88,10 +88,15 @@
     margin-bottom: 24px;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
 .upcoming-experience__item:last-of-type {
     margin-bottom: 0;
+}
+
+.upcoming-experience__item:hover {
+    box-shadow: 5px 5px 5px 10px;
 }
 
 .upcoming-experience__item-cd {
@@ -156,7 +161,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px;
+    padding: 16px;
 }
 
 .upcoming-experience__item-link a {
