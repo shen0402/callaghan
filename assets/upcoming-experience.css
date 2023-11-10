@@ -231,6 +231,8 @@
     .upcoming-experience__item-cd, .upcoming-experience__item-text, .upcoming-experience__item-link {
         width: 100%;
         margin-bottom: 16px;
+        padding: 0;
+        border: none;
     }
 
     .upcoming-experience__item-link {
