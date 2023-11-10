@@ -216,6 +216,6 @@
     }
 
     .upcoming-experience__image-links a:last-of-type {
-        margin-left: 5px;
+        margin-left: 0;
     }
 }
