@@ -218,4 +218,8 @@
     .upcoming-experience__image-links a:last-of-type {
         margin-left: 0;
     }
+
+    .upcoming-experience__list {
+        margin-top: 40px;
+    }
 }
