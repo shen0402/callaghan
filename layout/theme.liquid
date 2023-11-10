@@ -195,7 +195,7 @@
         height: 100%;
       }
 
-      @font-face {
+      /* @font-face {
         font-family: 'UniversLTStd';
         font-style: normal;
         font-weight: normal;
@@ -214,7 +214,7 @@
         font-style: normal;
         font-weight: normal;
         src: local('UniversLTStd-Light'), url('{{ 'UniversLTStd-Light.otf' | asset_url }}') format('truetype');
-      }
+      } */
 
       body {
         display: grid;
@@ -225,7 +225,6 @@
         font-size: 12px;
         letter-spacing: 0.06rem;
         line-height: calc(1 + 0.8 / var(--font-body-scale));
-        font-family: 'UniversLTStd-Light' !important;
         font-style: var(--font-body-style);
         font-weight: var(--font-body-weight);
       }
