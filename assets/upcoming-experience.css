@@ -89,6 +89,7 @@
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .upcoming-experience__item:last-of-type {
@@ -96,11 +97,12 @@
 }
 
 .upcoming-experience__item:hover {
-    box-shadow: 5px 5px 5px 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .upcoming-experience__item-cd {
-    padding: 0 24px;
+    padding: 0 32px;
+    border-right: 1px solid #E3DED9;
 }
 
 .upcoming-experience__item-day {
