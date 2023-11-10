@@ -83,7 +83,6 @@
 
 .upcoming-experience__item {
     display: flex;
-    padding: 16px 0;
     background-color: #ffffff;
     margin-bottom: 24px;
     justify-content: space-between;
@@ -101,7 +100,7 @@
 }
 
 .upcoming-experience__item-cd {
-    padding: 0 32px;
+    padding: 16px 32px;
     border-right: 1px solid #E3DED9;
 }
 
@@ -130,7 +129,7 @@
 }
 
 .upcoming-experience__item-text {
-    padding-left: 24px;
+    padding: 16px 0 16px 24px;
 }
 
 .upcoming-experience__item-heading {
