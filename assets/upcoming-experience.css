@@ -43,3 +43,14 @@
 .upcoming-experience__list {
     margin-left: 60px;
 }
+
+.btn {
+    color: #772337;
+    font-family: MerriweatherSans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
