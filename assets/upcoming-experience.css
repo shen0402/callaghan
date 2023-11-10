@@ -237,6 +237,7 @@
         position: relative;
         top: unset;
         right: unset;
+        justify-content: flex-start;
     }
 
     .upcoming-experience__item-month {
