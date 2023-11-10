@@ -235,6 +235,10 @@
         border: none;
     }
 
+    .upcoming-experience__item-cd {
+        padding-left: 16px;
+    }
+    
     .upcoming-experience__item-link {
         position: relative;
         top: unset;
