@@ -1,6 +1,12 @@
 <style>
   #section--{{ section.id }}{
-    background: #FEFAF5;
+    background-color: #FEFAF5;
+    {% if section.settings.back_img != blank %}
+      background-image: url('{{ section.settings.back_img | img_url: '1920x' }}');
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    {% endif %}
   }
 </style>
 <div id="section--{{ section.id }}">
