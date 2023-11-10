@@ -129,6 +129,7 @@
     line-height: 34px; /* 283.333% */
     letter-spacing: 2px;
     text-transform: uppercase;
+    margin: 0;
 }
 
 .upcoming-experience__item-body {
