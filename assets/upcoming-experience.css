@@ -80,3 +80,33 @@
 .upcoming-experience__image-links a:last-of-type {
     margin-left: 24px;
 }
+
+.upcoming-experience__item {
+    display: flex;
+    padding: 16px 0;
+    background-color: #ffffff;
+}
+
+.upcoming-experience__item-cd {
+    padding: 0 24px;
+}
+
+.upcoming-experience__item-day {
+    color: #772337;
+    font-family: FinoSans;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.upcoming-experience__item-month {
+    color: #3E1D25;
+    font-family: MerriweatherSans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 34px; /* 212.5% */
+}
