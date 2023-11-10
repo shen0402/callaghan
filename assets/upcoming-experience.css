@@ -211,4 +211,8 @@
         background-color: transparent;
         padding: 0;
     }
+
+    .upcoming-experience__image-links a {
+        margin: 0;
+    }
 }
