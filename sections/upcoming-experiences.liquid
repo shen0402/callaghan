@@ -33,10 +33,10 @@
           {% if section.settings.btn2_label != blank and section.settings.btn2_link != blank %}
             <a class="btn btn--secondary" href="{{ section.settings.btn2_link }}">{{ section.settings.btn2_label }}</a>
           {% endif %}
-          {% if section.settings.image != blank %}
+        </div>
+        {% if section.settings.image != blank %}
             <img src="{{ section.settings.image | img_url: '500x' }}" alt="Upcoming Experience">
           {% endif %}
-        </div>
       </div>
       <div class="upcoming-experience__list">
         {% for block in section.blocks %}
