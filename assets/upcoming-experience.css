@@ -83,12 +83,15 @@
 
 .upcoming-experience__item {
     display: flex;
+    padding: 16px 0;
     background-color: #ffffff;
     margin-bottom: 24px;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
     transition: 0.3s;
+    position: relative;
+    padding-right: 50px;
 }
 
 .upcoming-experience__item:last-of-type {
@@ -100,7 +103,7 @@
 }
 
 .upcoming-experience__item-cd {
-    padding: 16px 32px;
+    padding: 0 32px;
     border-right: 1px solid #E3DED9;
 }
 
@@ -129,7 +132,7 @@
 }
 
 .upcoming-experience__item-text {
-    padding: 16px 0 16px 24px;
+    padding-left: 24px;
 }
 
 .upcoming-experience__item-heading {
