@@ -1,3 +1,54 @@
+<div id="section--{{ section.id }}">
+  <div class="page-width upcoming-experience">
+    {% if section.settings.heading != blank %}
+      <h1 class="upcoming-experience__heading">{{ section.settings.heading }}</h1>
+    {% endif %}
+    <div class="upcoming-experience__flex">
+      <div class="upcoming-experience__image">
+        <div class="upcoming-experience__image-links">
+          {% if section.settings.btn1_label != blank and section.settings.btn1_link != blank %}
+            <a class="btn btn--secondary" href="{{ section.settings.btn1_link }}">{{ section.settings.btn1_label }}</a>
+          {% endif %}
+          {% if section.settings.btn2_label != blank and section.settings.btn2_link != blank %}
+            <a class="btn btn--secondary" href="{{ section.settings.btn2_link }}">{{ section.settings.btn2_label }}</a>
+          {% endif %}
+          {% if section.settings.image != blank %}
+            <img src="{{ section.settings.image | img_url: '500x' }}" alt="Upcoming Experience">
+          {% endif %}
+        </div>
+      </div>
+      <div class="upcoming-experience__list">
+        {% for block in section.blocks %}
+          <div class="upcoming-experience__item">
+            <div class="upcoming-experience__item-cd">
+              <h2 class="upcoming-experience__item-day">{{ block.settings.day }}</h2>
+              <p class="upcoming-experience__item-month">{{ block.settings.month }}</p>
+            </div>
+            <div class="upcoming-experience__item-text">
+              <h4 class="upcoming-experience__item-heading">{{ block.settings.heading }}</h4>
+              <div class="upcoming-experience__item-body">{{ block.settings.text }}</div>
+            </div>
+            <div class="upcoming-experience__item-link">
+              <a href="{{ block.settings.link }}" class="small-hide">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="26"
+                  viewBox="0 0 14 26"
+                  fill="none">
+                  <path d="M1 1.00012L13 13.0001L1 25.0001" stroke="#3E1D25" />
+                </svg>
+              </a>
+              <a class="btn btn--secondary medium-hide large-up-hide" href="{{ block.settings.link }}">
+                VIEW EVENT
+              </a>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
 {% schema %}
   {
     "name": "Upcoming Experiences",
